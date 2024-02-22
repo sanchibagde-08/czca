@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LOGIN FORM PRACTICE</title>
+        <style>
+            body {
+                background: url("C:/Users/Sanchi Bagde/Downloads/libraryimage.jpg") no-repeat center center fixed;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fcfcfc; /* Set text color to contrast with the background */
+                font-family: Arial, sans-serif;
+            }
+            form {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* White border shadow */
+            }
+            .register-link {
+            text-align: center;
+            margin-top: 10px;
+            }
+
+            .register-link a {
+            color: #fff;
+            }
+        </style>      
+    </head>
+    <body>
+        <div class="wrappedf">
+            <form action="connect.php" method="post">  
+                <table>
+                    <tr>
+                        <td>
+                            Username:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="enter your username" name="username" required>
+                        </td>
+        </div>               
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="enter your password" name="password" required>
+                        </td>
+                    <tr>
+                        <td>
+                           Email:
+                        </td>
+                        <td>
+                           <input type="email" placeholder="Enter your email" value="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="submit" name="">
+                        </td>
+                    </tr>   
+
+                </table>
+
+            </form>
+            <div class="register-link">
+                <p>Don't have an account? <a href="register.html">Register</a>
+
+                </p>
+            </div>
+
+
+       
+
+    </body>
+</html>

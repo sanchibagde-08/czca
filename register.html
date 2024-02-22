@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>REGISTRATION FORM PRACTICE</title>
+        <style>
+            body {
+            background: url("C:/Users/Sanchi Bagde/Downloads/chill.jpg") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fcfcfc; /* Set text color to contrast with the background */
+            font-family: Arial, sans-serif;
+            }
+
+            form {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* White border shadow */
+            }
+            .pay{
+                background: url("C:/Users/Sanchi Bagde/Pictures/Screenshots/Screenshot 2024-02-01 011955.png");
+                background-size: cover;
+                width: 100px; /* Adjust the width and height as needed */
+                height: 100px;
+            
+            }
+        </style>
+    </head>
+    <body>
+        <div class="shadow">
+            <form action="connect.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <input type="text", placeholder="enter your username" name="username" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Enter your email" name="email" required>
+                             
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mobile_Number:
+                        </td>
+                        <td>
+                            <select value="phone_code">
+                                <option value="+91">+91</option>
+                                <option value="+92">+92</option>
+                                <option value="+93">+93</option>
+                                <option value="+94">+94</option>
+                                <option value="+95">+95</option>
+                                <option value="+96">+96</option>
+                                <option value="+022">+022</option>
+                            </select>
+                            <input type="phone" placeholder="97****" name="mobile_num">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Profession:
+                        </td>
+                        <td>
+                            <input type="radio" name="profession" value="s">Student
+                            <input type="radio" name="profession" value="e">Employee
+                            <input type="radio" name="profession" value="i">Intern 
+                         </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Are you related to IWSA?
+                        </td>
+                        <td>
+                            <input type="radio" name="related_to_iwsa" value="y">yes
+                            <input type="radio" name="related_to_iwsa" value="n">no 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Set Password:
+                        </td>
+                        <td>
+                            <input type="text" placeholder="make a strong password" name="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Payment:
+                        </td>  
+                        <td>
+                            <input type="radio" name="payment_method" value="g">gpay 
+                            <input type="radio" name="payment_method" value="c">credit card             
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            QR Code:
+                        </td>
+                        <td>
+                            <div class="pay"> </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Share Screenshot:
+                        </td>
+                        <td>
+                            <input type="file" name="sse" accept="image/*">
+                            <input type="submit" value="Upload">
+                        </td>
+                    </tr>
+
+
+                </table>
+                
+            </form>
+            <p>Go back to login page? click here:<a href="loginkdsjd.html">Login Page</p>
+        </div>
+    </body>
+</html> 
